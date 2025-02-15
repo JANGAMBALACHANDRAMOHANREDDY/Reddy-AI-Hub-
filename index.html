@@ -7,39 +7,70 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            text-align: center;
+            background-color: #f5f5f5;
         }
         header {
-            background: #333;
+            background-color: #333;
             color: white;
-            padding: 20px;
+            padding: 15px;
             font-size: 24px;
         }
         .container {
-            margin: 50px;
+            padding: 50px;
         }
         .btn {
-            background: #007bff;
+            background-color: #007bff;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
+            border-radius: 5px;
             display: inline-block;
             margin-top: 20px;
-            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        #projects {
+            margin-top: 50px;
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 18px;
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        Reddy AI Hub
-    </header>
+
+    <header>Reddy AI Hub</header>
+
     <div class="container">
-        <h2>Welcome to Reddy AI Hub</h2>
+        <h1>Welcome to Reddy AI Hub</h1>
         <p>Your one-stop solution for AI Projects & Freelance Services</p>
         <a href="#projects" class="btn">Explore Projects</a>
     </div>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <p>Here are some AI projects and freelance services we offer.</p>
+        <ul>
+            <li>🔹 AI-Based Resume Analyzer</li>
+            <li>🔹 Automated Attendance System</li>
+            <li>🔹 AI-Powered Code Debugger</li>
+            <li>🔹 AI-Based Meme Generator</li>
+            <li>🔹 More Coming Soon!</li>
+        </ul>
+    </section>
+
 </body>
 </html>
